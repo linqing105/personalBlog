@@ -1,0 +1,5 @@
+2022-02-27 15:13:52.775  INFO 12380 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Starting MyProjectApplication using Java 1.8.0_202 on DESKTOP-SOLQHO2 with PID 12380 (E:\Design\MyProject\target\classes started by 18251 in E:\Design\MyProject)
+2022-02-27 15:13:52.777  INFO 12380 --- [restartedMain] com.zw.myproject.MyProjectApplication    : The following 1 profile is active: "pro"
+2022-02-27 15:13:55.466  WARN 12380 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-27 15:13:55.679  WARN 12380 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-27 15:13:55.797  INFO 12380 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Started MyProjectApplication in 3.499 seconds (JVM running for 4.966)

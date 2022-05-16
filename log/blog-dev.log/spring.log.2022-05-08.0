@@ -1,0 +1,54 @@
+2022-05-08 09:18:28.295  INFO 18804 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Starting MyProjectApplication using Java 1.8.0_202 on DESKTOP-SOLQHO2 with PID 18804 (E:\Design\MyProject\target\classes started by 18251 in E:\Design\MyProject)
+2022-05-08 09:18:28.305 DEBUG 18804 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-05-08 09:18:28.305  INFO 18804 --- [restartedMain] com.zw.myproject.MyProjectApplication    : The following 1 profile is active: "dev"
+2022-05-08 09:18:28.375  INFO 18804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-08 09:18:28.385  INFO 18804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-08 09:18:29.705  INFO 18804 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-08 09:18:29.806  INFO 18804 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 5 JPA repository interfaces.
+2022-05-08 09:18:31.096  INFO 18804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-08 09:18:31.116  INFO 18804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-08 09:18:31.116  INFO 18804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-05-08 09:18:31.316  INFO 18804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-08 09:18:31.316  INFO 18804 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2931 ms
+2022-05-08 09:18:31.546  INFO 18804 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-08 09:18:31.616  INFO 18804 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-08 09:18:31.847  INFO 18804 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-08 09:18:32.027  INFO 18804 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-08 09:18:33.928  INFO 18804 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-08 09:18:33.948  INFO 18804 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-08 09:18:35.528  INFO 18804 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-08 09:18:35.538  INFO 18804 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-08 09:18:37.229  WARN 18804 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-08 09:18:37.979  INFO 18804 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-08 09:18:38.879  INFO 18804 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-08 09:18:39.014  INFO 18804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-08 09:18:39.054  INFO 18804 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Started MyProjectApplication in 11.57 seconds (JVM running for 14.735)
+2022-05-08 09:18:49.755  INFO 18804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-08 09:18:49.755  INFO 18804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-08 09:18:49.755  INFO 18804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-08 09:18:49.835  INFO 18804 --- [http-nio-8080-exec-1] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2022-05-08 09:18:50.059  WARN 18804 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2022-05-08 09:18:50.099  WARN 18804 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2022-05-08 09:18:50.139  INFO 18804 --- [http-nio-8080-exec-1] com.zw.myproject.aspect.LogAspect        : Result : {}index
+2022-05-08 09:18:52.277  INFO 18804 --- [http-nio-8080-exec-2] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-08 09:18:52.309  INFO 18804 --- [http-nio-8080-exec-2] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-08 09:46:59.333  INFO 18804 --- [http-nio-8080-exec-10] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/type/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.TypeShowController.types', args=[Page request [number: 0, size 1, sort: updateTime: DESC], -1, {}]}
+2022-05-08 09:46:59.519  INFO 18804 --- [http-nio-8080-exec-10] com.zw.myproject.aspect.LogAspect        : Result : {}type
+2022-05-08 09:47:02.001  INFO 18804 --- [http-nio-8080-exec-4] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-08 09:47:02.084  INFO 18804 --- [http-nio-8080-exec-4] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-08 09:47:05.657  INFO 18804 --- [http-nio-8080-exec-3] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/tag/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.TagShowController.tags', args=[Page request [number: 0, size 1, sort: updateTime: DESC], -1, {}]}
+2022-05-08 09:47:05.986  INFO 18804 --- [http-nio-8080-exec-3] com.zw.myproject.aspect.LogAspect        : Result : {}tag
+2022-05-08 09:47:08.548  INFO 18804 --- [http-nio-8080-exec-8] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-08 09:47:08.566  INFO 18804 --- [http-nio-8080-exec-8] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-08 09:47:09.460  INFO 18804 --- [http-nio-8080-exec-2] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/archive', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.ArchiveShowController.archives', args=[{}]}
+2022-05-08 09:47:09.629  INFO 18804 --- [http-nio-8080-exec-2] com.zw.myproject.aspect.LogAspect        : Result : {}archive
+2022-05-08 09:47:11.272  INFO 18804 --- [http-nio-8080-exec-6] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-08 09:47:11.309  INFO 18804 --- [http-nio-8080-exec-6] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-08 09:47:15.978  INFO 18804 --- [http-nio-8080-exec-9] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2022-05-08 09:47:16.067  INFO 18804 --- [http-nio-8080-exec-9] com.zw.myproject.aspect.LogAspect        : Result : {}index
+2022-05-08 09:47:17.532  INFO 18804 --- [http-nio-8080-exec-7] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-08 09:47:17.594  INFO 18804 --- [http-nio-8080-exec-7] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-08 11:51:38.127  WARN 18804 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h53m3s471ms270µs600ns).
+2022-05-08 18:00:20.862  INFO 18804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-08 18:00:20.872  INFO 18804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-08 18:00:20.880  INFO 18804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

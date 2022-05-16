@@ -1,0 +1,86 @@
+2022-05-12 21:39:14.261  INFO 3168 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Starting MyProjectApplication using Java 1.8.0_202 on DESKTOP-SOLQHO2 with PID 3168 (E:\Design\MyProject\target\classes started by 18251 in E:\Design\MyProject)
+2022-05-12 21:39:14.275 DEBUG 3168 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-05-12 21:39:14.276  INFO 3168 --- [restartedMain] com.zw.myproject.MyProjectApplication    : The following 1 profile is active: "dev"
+2022-05-12 21:39:14.363  INFO 3168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 21:39:14.364  INFO 3168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 21:39:15.837  INFO 3168 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-12 21:39:15.943  INFO 3168 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 5 JPA repository interfaces.
+2022-05-12 21:39:18.005  INFO 3168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-12 21:39:18.020  INFO 3168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 21:39:18.021  INFO 3168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-05-12 21:39:18.210  INFO 3168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 21:39:18.211  INFO 3168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3846 ms
+2022-05-12 21:39:18.550  INFO 3168 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-12 21:39:18.648  INFO 3168 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-12 21:39:18.923  INFO 3168 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-12 21:39:19.129  INFO 3168 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-12 21:39:20.581  INFO 3168 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-12 21:39:20.618  INFO 3168 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-12 21:39:22.581  INFO 3168 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-12 21:39:22.593  INFO 3168 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-12 21:39:24.422  WARN 3168 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-12 21:39:25.058  INFO 3168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-12 21:39:25.828  INFO 3168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-12 21:39:25.888  INFO 3168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-12 21:39:25.902  INFO 3168 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Started MyProjectApplication in 12.533 seconds (JVM running for 13.786)
+2022-05-12 21:40:01.092  INFO 3168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 21:40:01.092  INFO 3168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-12 21:40:01.094  INFO 3168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-05-12 21:40:01.174  INFO 3168 --- [http-nio-8080-exec-1] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2022-05-12 21:40:01.365  WARN 3168 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2022-05-12 21:40:01.407  WARN 3168 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2022-05-12 21:40:01.429  INFO 3168 --- [http-nio-8080-exec-1] com.zw.myproject.aspect.LogAspect        : Result : {}index
+2022-05-12 21:40:02.807  INFO 3168 --- [http-nio-8080-exec-6] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-12 21:40:02.820  INFO 3168 --- [http-nio-8080-exec-6] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-12 21:42:22.933  INFO 3168 --- [http-nio-8080-exec-5] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/type/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.TypeShowController.types', args=[Page request [number: 0, size 1, sort: updateTime: DESC], -1, {}]}
+2022-05-12 21:42:23.054  INFO 3168 --- [http-nio-8080-exec-5] com.zw.myproject.aspect.LogAspect        : Result : {}type
+2022-05-12 21:42:23.858  INFO 3168 --- [http-nio-8080-exec-4] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-12 21:42:23.884  INFO 3168 --- [http-nio-8080-exec-4] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-12 21:42:36.349  INFO 3168 --- [http-nio-8080-exec-2] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/tag/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.TagShowController.tags', args=[Page request [number: 0, size 1, sort: updateTime: DESC], -1, {}]}
+2022-05-12 21:42:36.461  INFO 3168 --- [http-nio-8080-exec-2] com.zw.myproject.aspect.LogAspect        : Result : {}tag
+2022-05-12 21:42:37.287  INFO 3168 --- [http-nio-8080-exec-3] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-12 21:42:37.304  INFO 3168 --- [http-nio-8080-exec-3] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-12 21:52:06.462  INFO 3168 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-12 21:52:06.481  INFO 3168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-12 21:52:06.528  INFO 3168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-12 22:28:58.612  INFO 5488 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Starting MyProjectApplication using Java 1.8.0_202 on DESKTOP-SOLQHO2 with PID 5488 (E:\Design\MyProject\target\classes started by 18251 in E:\Design\MyProject)
+2022-05-12 22:28:58.613 DEBUG 5488 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-05-12 22:28:58.614  INFO 5488 --- [restartedMain] com.zw.myproject.MyProjectApplication    : The following 1 profile is active: "dev"
+2022-05-12 22:28:58.667  INFO 5488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 22:28:58.667  INFO 5488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 22:28:59.409  INFO 5488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-12 22:28:59.487  INFO 5488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2022-05-12 22:29:00.933  INFO 5488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-12 22:29:00.942  INFO 5488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 22:29:00.943  INFO 5488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-05-12 22:29:01.090  INFO 5488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 22:29:01.090  INFO 5488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2422 ms
+2022-05-12 22:29:01.266  INFO 5488 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-12 22:29:01.318  INFO 5488 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-12 22:29:01.471  INFO 5488 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-12 22:29:01.577  INFO 5488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-12 22:29:02.612  INFO 5488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-12 22:29:02.625  INFO 5488 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-12 22:29:03.627  INFO 5488 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-12 22:29:03.635  INFO 5488 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-12 22:29:04.678  WARN 5488 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-12 22:29:04.962  INFO 5488 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-12 22:29:05.353  INFO 5488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-12 22:29:05.390  INFO 5488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-12 22:29:05.400  INFO 5488 --- [restartedMain] com.zw.myproject.MyProjectApplication    : Started MyProjectApplication in 7.323 seconds (JVM running for 9.667)
+2022-05-12 22:32:58.149  INFO 5488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 22:32:58.149  INFO 5488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-12 22:32:58.150  INFO 5488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-12 22:32:58.217  INFO 5488 --- [http-nio-8080-exec-1] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/tag/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.TagShowController.tags', args=[Page request [number: 0, size 1, sort: updateTime: DESC], -1, {}]}
+2022-05-12 22:32:58.250  WARN 5488 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2022-05-12 22:32:58.485  INFO 5488 --- [http-nio-8080-exec-1] com.zw.myproject.aspect.LogAspect        : Result : {}tag
+2022-05-12 22:33:00.055  INFO 5488 --- [http-nio-8080-exec-8] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-12 22:33:00.100  INFO 5488 --- [http-nio-8080-exec-8] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-12 22:33:01.176  INFO 5488 --- [http-nio-8080-exec-5] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2022-05-12 22:33:01.204  WARN 5488 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2022-05-12 22:33:01.260  INFO 5488 --- [http-nio-8080-exec-5] com.zw.myproject.aspect.LogAspect        : Result : {}index
+2022-05-12 22:33:01.833  INFO 5488 --- [http-nio-8080-exec-2] com.zw.myproject.aspect.LogAspect        : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zw.myproject.controller.IndexController.newblogs', args=[{}]}
+2022-05-12 22:33:01.846  INFO 5488 --- [http-nio-8080-exec-2] com.zw.myproject.aspect.LogAspect        : Result : {}_fragment :: newblogList
+2022-05-12 23:12:04.357  INFO 5488 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-12 23:12:04.370  INFO 5488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-12 23:12:04.380  INFO 5488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
